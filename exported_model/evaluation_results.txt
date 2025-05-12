@@ -1,0 +1,37 @@
+=== Kết quả đánh giá mô hình SVM ===
+
+Phân bố dữ liệu train:
+fist: 2794 mẫu
+palm: 2849 mẫu
+ok: 2774 mẫu
+point: 2762 mẫu
+Tổng số mẫu train: 11179
+Kích thước đặc trưng: 63 chiều
+
+Phân bố dữ liệu test:
+fist: 108 mẫu
+palm: 155 mẫu
+ok: 149 mẫu
+point: 134 mẫu
+Tổng số mẫu test: 546
+
+Thời gian huấn luyện: 0.24 giây
+
+Độ chính xác cross-validation (5-fold) trên tập train: [99.01610018 99.32915921 99.50805009 99.82110912 99.82102908]
+Trung bình độ chính xác: 99.50%
+Độ lệch chuẩn độ chính xác: 0.31%
+
+Độ chính xác tổng thể trên tập test: 89.74%
+
+Tỉ lệ phát hiện đúng cho từng ký tự:
+fist: 97.22% (105/108)
+palm: 90.97% (141/155)
+ok: 78.52% (117/149)
+point: 94.78% (127/134)
+Tỉ lệ trung bình phát hiện đúng: 90.37%
+
+Confusion Matrix:
+[[105,   2,   0,   1],
+ [  3, 141,  11,   0],
+ [  0,  11, 117,  21],
+ [  0,   0,   7, 127]]

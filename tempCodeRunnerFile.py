@@ -1,0 +1,1 @@
+mp_hands = mp.solutions.hands
